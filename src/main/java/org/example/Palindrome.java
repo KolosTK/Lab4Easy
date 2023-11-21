@@ -1,9 +1,7 @@
 package org.example;
 
 public class Palindrome {
-    Palindrome (String word){
 
-    }
     public boolean IsWordPalindrome(String word)
     {
         word.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
@@ -18,6 +16,6 @@ public class Palindrome {
             end--;
         }
 
-        return false;
+        return true;
     }
 }
