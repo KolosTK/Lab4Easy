@@ -13,12 +13,17 @@ class PalindromeTest {
 
     }
     @Test
-    void isWordPalindromeFalse() {
+    void testPalindromeFalse() {
         assertFalse(pal.IsWordPalindrome("egg"));
     }
     @Test
-    void isPalindromeTrue ()
+    void testPalindromeTrue ()
     {
         assertTrue(pal.IsWordPalindrome("aga"));
+    }
+    @Test
+    void testPalindromeFalseWithTwoWords ()
+    {
+        assertFalse(pal.IsWordPalindrome("aga rur"));
     }
 }

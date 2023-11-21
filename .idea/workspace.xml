@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aeefa96-e5ed-4893-8b89-64f04b6dfbaa" name="Changes" comment="Create Palindrome class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Palindrome.java" afterDir="false" />
-    </list>
+    <list default="true" id="9aeefa96-e5ed-4893-8b89-64f04b6dfbaa" name="Changes" comment="Add changes to Palindrome class&#10;* remove constructor&#10;* change return value" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +54,23 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PalindromeTest.isPalindromeTrue">
+  <component name="RunManager" selected="JUnit.PalindromeTest.testPalindromeFalseWithTwoWords">
+    <configuration name="PalindromeTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab4Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PalindromeTest" />
+      <option name="METHOD_NAME" value="isPalindrome" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromeTest.isPalindromeTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab4Easy" />
       <extension name="coverage">
@@ -89,6 +103,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PalindromeTest.testPalindromeFalseWithTwoWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab4Easy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.PalindromeTest" />
+      <option name="METHOD_NAME" value="testPalindromeFalseWithTwoWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,8 +132,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PalindromeTest.isPalindromeTrue" />
+        <item itemvalue="JUnit.PalindromeTest.testPalindromeFalseWithTwoWords" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindrome" />
         <item itemvalue="JUnit.PalindromeTest.isWordPalindromeFalse" />
+        <item itemvalue="JUnit.PalindromeTest.isPalindromeTrue" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +148,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700563067794</updated>
       <workItem from="1700563070082" duration="10000" />
-      <workItem from="1700564645020" duration="1703000" />
+      <workItem from="1700564645020" duration="2009000" />
     </task>
     <task id="LOCAL-00001" summary="Remove main method">
       <option name="closed" value="true" />
@@ -134,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700566032924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create JUnit test PalindromeTest">
+      <option name="closed" value="true" />
+      <created>1700566502012</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700566502012</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add changes to Palindrome class&#10;* remove constructor&#10;* change return value">
+      <option name="closed" value="true" />
+      <created>1700566636347</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700566636347</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +191,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove main method" />
     <MESSAGE value="Create Palindrome class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Palindrome class" />
+    <MESSAGE value="Create JUnit test PalindromeTest" />
+    <MESSAGE value="Add changes to Palindrome class&#10;* remove constructor&#10;* change return value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add changes to Palindrome class&#10;* remove constructor&#10;* change return value" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
